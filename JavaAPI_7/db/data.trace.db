@@ -1,0 +1,2349 @@
+2019-03-31 04:20:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:20:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:20:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:20:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:20:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:20:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "NNAAMMEE" не найден
+Column "NNAAMMEE" not found; SQL statement:
+INSERT INTO input_table (iname, brand, cost) VALUES(nnaammee, Apacer, 150) [42122-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.expression.ExpressionColumn.getColumnException(ExpressionColumn.java:176)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:158)
+	at org.h2.command.dml.Insert.prepare(Insert.java:322)
+	at org.h2.command.Parser.prepareCommand(Parser.java:689)
+	at org.h2.engine.Session.prepareLocal(Session.java:627)
+	at org.h2.engine.Session.prepareCommand(Session.java:565)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:77)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:349)
+	at package1.PeripheralTableModel.add(PeripheralTableModel.java:34)
+	at package1.TableAddDialog$1.actionPerformed(TableAddDialog.java:46)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at package1.TableAddDialog.<init>(TableAddDialog.java:86)
+	at package1.Main$1.actionPerformed(Main.java:30)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:842)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:886)
+	at java.awt.Component.processMouseEvent(Component.java:6539)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4535)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:21:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:21:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:21:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:21:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:21:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:23:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:26:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "0" для параметра "columnIndex"
+Invalid value "0" for parameter "columnIndex" [90008-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:587)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3231)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3270)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:332)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:53)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at java.awt.FlowLayout.layoutContainer(FlowLayout.java:609)
+	at java.awt.Container.layout(Container.java:1513)
+	at java.awt.Container.doLayout(Container.java:1502)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler.getNodeDimensions(BasicTreeUI.java:2813)
+	at javax.swing.tree.AbstractLayoutCache.getNodeDimensions(AbstractLayoutCache.java:492)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.updatePreferredSize(VariableHeightLayoutCache.java:1360)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1496)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1288)
+	at javax.swing.tree.VariableHeightLayoutCache.ensurePathIsExpanded(VariableHeightLayoutCache.java:984)
+	at javax.swing.tree.VariableHeightLayoutCache.setExpandedState(VariableHeightLayoutCache.java:182)
+	at javax.swing.plaf.basic.BasicTreeUI.updateExpandedDescendants(BasicTreeUI.java:1696)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeExpanded(BasicTreeUI.java:3805)
+	at javax.swing.JTree.fireTreeExpanded(JTree.java:2771)
+	at javax.swing.JTree.setExpandedState(JTree.java:3636)
+	at javax.swing.JTree.expandPath(JTree.java:2219)
+	at javax.swing.plaf.basic.BasicTreeUI.toggleExpandState(BasicTreeUI.java:2286)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(BasicTreeUI.java:2395)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(BasicTreeUI.java:3609)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(BasicTreeUI.java:3548)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:26:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "0" для параметра "columnIndex"
+Invalid value "0" for parameter "columnIndex" [90008-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:587)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3231)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3270)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:332)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:53)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at javax.swing.JTable.setWidthsFromPreferredWidths(JTable.java:3217)
+	at javax.swing.JTable.doLayout(JTable.java:3131)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler.getNodeDimensions(BasicTreeUI.java:2813)
+	at javax.swing.tree.AbstractLayoutCache.getNodeDimensions(AbstractLayoutCache.java:492)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.updatePreferredSize(VariableHeightLayoutCache.java:1360)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1496)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1288)
+	at javax.swing.tree.VariableHeightLayoutCache.ensurePathIsExpanded(VariableHeightLayoutCache.java:984)
+	at javax.swing.tree.VariableHeightLayoutCache.setExpandedState(VariableHeightLayoutCache.java:182)
+	at javax.swing.plaf.basic.BasicTreeUI.updateExpandedDescendants(BasicTreeUI.java:1696)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeExpanded(BasicTreeUI.java:3805)
+	at javax.swing.JTree.fireTreeExpanded(JTree.java:2771)
+	at javax.swing.JTree.setExpandedState(JTree.java:3636)
+	at javax.swing.JTree.expandPath(JTree.java:2219)
+	at javax.swing.plaf.basic.BasicTreeUI.toggleExpandState(BasicTreeUI.java:2286)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(BasicTreeUI.java:2395)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(BasicTreeUI.java:3609)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(BasicTreeUI.java:3548)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:26:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "0" для параметра "columnIndex"
+Invalid value "0" for parameter "columnIndex" [90008-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:587)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3231)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3270)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:332)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:53)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at java.awt.FlowLayout.preferredLayoutSize(FlowLayout.java:414)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler.getNodeDimensions(BasicTreeUI.java:2815)
+	at javax.swing.tree.AbstractLayoutCache.getNodeDimensions(AbstractLayoutCache.java:492)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.updatePreferredSize(VariableHeightLayoutCache.java:1360)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1496)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1288)
+	at javax.swing.tree.VariableHeightLayoutCache.ensurePathIsExpanded(VariableHeightLayoutCache.java:984)
+	at javax.swing.tree.VariableHeightLayoutCache.setExpandedState(VariableHeightLayoutCache.java:182)
+	at javax.swing.plaf.basic.BasicTreeUI.updateExpandedDescendants(BasicTreeUI.java:1696)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeExpanded(BasicTreeUI.java:3805)
+	at javax.swing.JTree.fireTreeExpanded(JTree.java:2771)
+	at javax.swing.JTree.setExpandedState(JTree.java:3636)
+	at javax.swing.JTree.expandPath(JTree.java:2219)
+	at javax.swing.plaf.basic.BasicTreeUI.toggleExpandState(BasicTreeUI.java:2286)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(BasicTreeUI.java:2395)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(BasicTreeUI.java:3609)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(BasicTreeUI.java:3548)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:26:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "0" для параметра "columnIndex"
+Invalid value "0" for parameter "columnIndex" [90008-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:587)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3231)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3270)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:332)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:53)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at java.awt.FlowLayout.layoutContainer(FlowLayout.java:609)
+	at java.awt.Container.layout(Container.java:1513)
+	at java.awt.Container.doLayout(Container.java:1502)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:140)
+	at javax.swing.plaf.basic.BasicTreeUI.paintRow(BasicTreeUI.java:1540)
+	at javax.swing.plaf.basic.BasicTreeUI.paint(BasicTreeUI.java:1224)
+	at javax.swing.plaf.metal.MetalTreeUI.paint(MetalTreeUI.java:169)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:26:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "0" для параметра "columnIndex"
+Invalid value "0" for parameter "columnIndex" [90008-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:587)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcResultSet.checkColumnIndex(JdbcResultSet.java:3231)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3270)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:332)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:53)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at javax.swing.JTable.setWidthsFromPreferredWidths(JTable.java:3217)
+	at javax.swing.JTable.doLayout(JTable.java:3131)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:140)
+	at javax.swing.plaf.basic.BasicTreeUI.paintRow(BasicTreeUI.java:1540)
+	at javax.swing.plaf.basic.BasicTreeUI.paint(BasicTreeUI.java:1224)
+	at javax.swing.plaf.metal.MetalTreeUI.paint(MetalTreeUI.java:169)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:26:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:26:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:26:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:26:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:26:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:29:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:29:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:29:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:29:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:29:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:35:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Набор записей не является прокручиваемым. Возможно необходимо использовать conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..).
+The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3322)
+	at org.h2.jdbc.JdbcResultSet.beforeFirst(JdbcResultSet.java:2791)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:56)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at java.awt.FlowLayout.layoutContainer(FlowLayout.java:609)
+	at java.awt.Container.layout(Container.java:1513)
+	at java.awt.Container.doLayout(Container.java:1502)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler.getNodeDimensions(BasicTreeUI.java:2813)
+	at javax.swing.tree.AbstractLayoutCache.getNodeDimensions(AbstractLayoutCache.java:492)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.updatePreferredSize(VariableHeightLayoutCache.java:1360)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1496)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1288)
+	at javax.swing.tree.VariableHeightLayoutCache.ensurePathIsExpanded(VariableHeightLayoutCache.java:984)
+	at javax.swing.tree.VariableHeightLayoutCache.setExpandedState(VariableHeightLayoutCache.java:182)
+	at javax.swing.plaf.basic.BasicTreeUI.updateExpandedDescendants(BasicTreeUI.java:1696)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeExpanded(BasicTreeUI.java:3805)
+	at javax.swing.JTree.fireTreeExpanded(JTree.java:2771)
+	at javax.swing.JTree.setExpandedState(JTree.java:3636)
+	at javax.swing.JTree.expandPath(JTree.java:2219)
+	at javax.swing.plaf.basic.BasicTreeUI.toggleExpandState(BasicTreeUI.java:2286)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(BasicTreeUI.java:2395)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(BasicTreeUI.java:3609)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(BasicTreeUI.java:3548)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:35:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Набор записей не является прокручиваемым. Возможно необходимо использовать conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..).
+The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3322)
+	at org.h2.jdbc.JdbcResultSet.beforeFirst(JdbcResultSet.java:2791)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:56)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at javax.swing.JTable.setWidthsFromPreferredWidths(JTable.java:3217)
+	at javax.swing.JTable.doLayout(JTable.java:3131)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler.getNodeDimensions(BasicTreeUI.java:2813)
+	at javax.swing.tree.AbstractLayoutCache.getNodeDimensions(AbstractLayoutCache.java:492)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.updatePreferredSize(VariableHeightLayoutCache.java:1360)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1496)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1288)
+	at javax.swing.tree.VariableHeightLayoutCache.ensurePathIsExpanded(VariableHeightLayoutCache.java:984)
+	at javax.swing.tree.VariableHeightLayoutCache.setExpandedState(VariableHeightLayoutCache.java:182)
+	at javax.swing.plaf.basic.BasicTreeUI.updateExpandedDescendants(BasicTreeUI.java:1696)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeExpanded(BasicTreeUI.java:3805)
+	at javax.swing.JTree.fireTreeExpanded(JTree.java:2771)
+	at javax.swing.JTree.setExpandedState(JTree.java:3636)
+	at javax.swing.JTree.expandPath(JTree.java:2219)
+	at javax.swing.plaf.basic.BasicTreeUI.toggleExpandState(BasicTreeUI.java:2286)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(BasicTreeUI.java:2395)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(BasicTreeUI.java:3609)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(BasicTreeUI.java:3548)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:35:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Набор записей не является прокручиваемым. Возможно необходимо использовать conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..).
+The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3322)
+	at org.h2.jdbc.JdbcResultSet.beforeFirst(JdbcResultSet.java:2791)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:56)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at java.awt.FlowLayout.preferredLayoutSize(FlowLayout.java:414)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler.getNodeDimensions(BasicTreeUI.java:2815)
+	at javax.swing.tree.AbstractLayoutCache.getNodeDimensions(AbstractLayoutCache.java:492)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.updatePreferredSize(VariableHeightLayoutCache.java:1360)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1496)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1288)
+	at javax.swing.tree.VariableHeightLayoutCache.ensurePathIsExpanded(VariableHeightLayoutCache.java:984)
+	at javax.swing.tree.VariableHeightLayoutCache.setExpandedState(VariableHeightLayoutCache.java:182)
+	at javax.swing.plaf.basic.BasicTreeUI.updateExpandedDescendants(BasicTreeUI.java:1696)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeExpanded(BasicTreeUI.java:3805)
+	at javax.swing.JTree.fireTreeExpanded(JTree.java:2771)
+	at javax.swing.JTree.setExpandedState(JTree.java:3636)
+	at javax.swing.JTree.expandPath(JTree.java:2219)
+	at javax.swing.plaf.basic.BasicTreeUI.toggleExpandState(BasicTreeUI.java:2286)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(BasicTreeUI.java:2395)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(BasicTreeUI.java:3609)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(BasicTreeUI.java:3548)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:35:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Набор записей не является прокручиваемым. Возможно необходимо использовать conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..).
+The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3322)
+	at org.h2.jdbc.JdbcResultSet.beforeFirst(JdbcResultSet.java:2791)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:56)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at java.awt.FlowLayout.layoutContainer(FlowLayout.java:609)
+	at java.awt.Container.layout(Container.java:1513)
+	at java.awt.Container.doLayout(Container.java:1502)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:140)
+	at javax.swing.plaf.basic.BasicTreeUI.paintRow(BasicTreeUI.java:1540)
+	at javax.swing.plaf.basic.BasicTreeUI.paint(BasicTreeUI.java:1224)
+	at javax.swing.plaf.metal.MetalTreeUI.paint(MetalTreeUI.java:169)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:35:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Набор записей не является прокручиваемым. Возможно необходимо использовать conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..).
+The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3322)
+	at org.h2.jdbc.JdbcResultSet.beforeFirst(JdbcResultSet.java:2791)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:56)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at javax.swing.JTable.setWidthsFromPreferredWidths(JTable.java:3217)
+	at javax.swing.JTable.doLayout(JTable.java:3131)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:140)
+	at javax.swing.plaf.basic.BasicTreeUI.paintRow(BasicTreeUI.java:1540)
+	at javax.swing.plaf.basic.BasicTreeUI.paint(BasicTreeUI.java:1224)
+	at javax.swing.plaf.metal.MetalTreeUI.paint(MetalTreeUI.java:169)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:38:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:38:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:39:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:40:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:41:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:41:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:41:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:41:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:41:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:42:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:43:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:45:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:45:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:45:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:45:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:45:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:49:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:49:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:49:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:49:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:49:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:50:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "pos" не найден
+Column "pos" not found [42122-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3214)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3287)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:350)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:55)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at java.awt.FlowLayout.layoutContainer(FlowLayout.java:609)
+	at java.awt.Container.layout(Container.java:1513)
+	at java.awt.Container.doLayout(Container.java:1502)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler.getNodeDimensions(BasicTreeUI.java:2813)
+	at javax.swing.tree.AbstractLayoutCache.getNodeDimensions(AbstractLayoutCache.java:492)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.updatePreferredSize(VariableHeightLayoutCache.java:1360)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1496)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1288)
+	at javax.swing.tree.VariableHeightLayoutCache.ensurePathIsExpanded(VariableHeightLayoutCache.java:984)
+	at javax.swing.tree.VariableHeightLayoutCache.setExpandedState(VariableHeightLayoutCache.java:182)
+	at javax.swing.plaf.basic.BasicTreeUI.updateExpandedDescendants(BasicTreeUI.java:1696)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeExpanded(BasicTreeUI.java:3805)
+	at javax.swing.JTree.fireTreeExpanded(JTree.java:2771)
+	at javax.swing.JTree.setExpandedState(JTree.java:3636)
+	at javax.swing.JTree.expandPath(JTree.java:2219)
+	at javax.swing.plaf.basic.BasicTreeUI.toggleExpandState(BasicTreeUI.java:2286)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(BasicTreeUI.java:2395)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(BasicTreeUI.java:3609)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(BasicTreeUI.java:3548)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:50:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "pos" не найден
+Column "pos" not found [42122-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3214)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3287)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:350)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:55)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at javax.swing.JTable.setWidthsFromPreferredWidths(JTable.java:3217)
+	at javax.swing.JTable.doLayout(JTable.java:3131)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler.getNodeDimensions(BasicTreeUI.java:2813)
+	at javax.swing.tree.AbstractLayoutCache.getNodeDimensions(AbstractLayoutCache.java:492)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.updatePreferredSize(VariableHeightLayoutCache.java:1360)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1496)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1288)
+	at javax.swing.tree.VariableHeightLayoutCache.ensurePathIsExpanded(VariableHeightLayoutCache.java:984)
+	at javax.swing.tree.VariableHeightLayoutCache.setExpandedState(VariableHeightLayoutCache.java:182)
+	at javax.swing.plaf.basic.BasicTreeUI.updateExpandedDescendants(BasicTreeUI.java:1696)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeExpanded(BasicTreeUI.java:3805)
+	at javax.swing.JTree.fireTreeExpanded(JTree.java:2771)
+	at javax.swing.JTree.setExpandedState(JTree.java:3636)
+	at javax.swing.JTree.expandPath(JTree.java:2219)
+	at javax.swing.plaf.basic.BasicTreeUI.toggleExpandState(BasicTreeUI.java:2286)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(BasicTreeUI.java:2395)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(BasicTreeUI.java:3609)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(BasicTreeUI.java:3548)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:50:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "pos" не найден
+Column "pos" not found [42122-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3214)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3287)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:350)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:55)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at java.awt.FlowLayout.preferredLayoutSize(FlowLayout.java:414)
+	at java.awt.Container.preferredSize(Container.java:1799)
+	at java.awt.Container.getPreferredSize(Container.java:1783)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1664)
+	at javax.swing.plaf.basic.BasicTreeUI$NodeDimensionsHandler.getNodeDimensions(BasicTreeUI.java:2815)
+	at javax.swing.tree.AbstractLayoutCache.getNodeDimensions(AbstractLayoutCache.java:492)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.updatePreferredSize(VariableHeightLayoutCache.java:1360)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1496)
+	at javax.swing.tree.VariableHeightLayoutCache$TreeStateNode.expand(VariableHeightLayoutCache.java:1288)
+	at javax.swing.tree.VariableHeightLayoutCache.ensurePathIsExpanded(VariableHeightLayoutCache.java:984)
+	at javax.swing.tree.VariableHeightLayoutCache.setExpandedState(VariableHeightLayoutCache.java:182)
+	at javax.swing.plaf.basic.BasicTreeUI.updateExpandedDescendants(BasicTreeUI.java:1696)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.treeExpanded(BasicTreeUI.java:3805)
+	at javax.swing.JTree.fireTreeExpanded(JTree.java:2771)
+	at javax.swing.JTree.setExpandedState(JTree.java:3636)
+	at javax.swing.JTree.expandPath(JTree.java:2219)
+	at javax.swing.plaf.basic.BasicTreeUI.toggleExpandState(BasicTreeUI.java:2286)
+	at javax.swing.plaf.basic.BasicTreeUI.selectPathForEvent(BasicTreeUI.java:2395)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.handleSelection(BasicTreeUI.java:3609)
+	at javax.swing.plaf.basic.BasicTreeUI$Handler.mousePressed(BasicTreeUI.java:3548)
+	at java.awt.Component.processMouseEvent(Component.java:6536)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6304)
+	at java.awt.Container.processEvent(Container.java:2239)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2297)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4904)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4532)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4476)
+	at java.awt.Container.dispatchEventImpl(Container.java:2283)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:760)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:84)
+	at java.awt.EventQueue$4.run(EventQueue.java:733)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:730)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:50:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "pos" не найден
+Column "pos" not found [42122-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3214)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3287)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:350)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:55)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at java.awt.FlowLayout.layoutContainer(FlowLayout.java:609)
+	at java.awt.Container.layout(Container.java:1513)
+	at java.awt.Container.doLayout(Container.java:1502)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:140)
+	at javax.swing.plaf.basic.BasicTreeUI.paintRow(BasicTreeUI.java:1540)
+	at javax.swing.plaf.basic.BasicTreeUI.paint(BasicTreeUI.java:1224)
+	at javax.swing.plaf.metal.MetalTreeUI.paint(MetalTreeUI.java:169)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:50:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "pos" не найден
+Column "pos" not found [42122-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3214)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3287)
+	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:350)
+	at package1.PeripheralTableModel.getRowCount(PeripheralTableModel.java:55)
+	at javax.swing.JTable.getRowCount(JTable.java:2665)
+	at javax.swing.plaf.basic.BasicTableUI.createTableSize(BasicTableUI.java:1692)
+	at javax.swing.plaf.basic.BasicTableUI.getPreferredSize(BasicTableUI.java:1733)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at javax.swing.JTable.setWidthsFromPreferredWidths(JTable.java:3217)
+	at javax.swing.JTable.doLayout(JTable.java:3131)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validateTree(Container.java:1707)
+	at java.awt.Container.validate(Container.java:1633)
+	at javax.swing.CellRendererPane.paintComponent(CellRendererPane.java:140)
+	at javax.swing.plaf.basic.BasicTreeUI.paintRow(BasicTreeUI.java:1540)
+	at javax.swing.plaf.basic.BasicTreeUI.paint(BasicTreeUI.java:1224)
+	at javax.swing.plaf.metal.MetalTreeUI.paint(MetalTreeUI.java:169)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.BufferStrategyPaintManager.paint(BufferStrategyPaintManager.java:290)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2019-03-31 04:50:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:50:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:50:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:50:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:50:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:51:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:51:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:51:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:51:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:51:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:52:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:56:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:56:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:56:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:56:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:56:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:57:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:58:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:58:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:58:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:58:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:58:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:59:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:59:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:59:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:59:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 04:59:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:00:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:00:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:00:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:00:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:00:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:02:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
+2019-03-31 05:03:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: Нет данных
+No data is available [2000-199]
